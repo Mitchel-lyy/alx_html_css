@@ -1,6 +1,12 @@
 body{
     display: flex;
     flex-direction: column;
+    background-color: #f4f7f6;
+}
+
+header{
+    background-color: #34495e;
+    color: #ecf0f1;
 }
 
 main{
@@ -17,4 +23,16 @@ article{
 aside{
     flex: 1;
     overflow-y: auto;
+}
+
+.logo{
+    font-size: 3em;
+    color: #1abc9c;
+    margin-right: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0,3);
+    transition: transform 0.3s;
+}
+
+.logo:hover{
+    transform: scale(1.1) rotate(5deg);
 }
